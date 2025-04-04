@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Form One</h2>
+    <form action="#" target="_blank">
+        <fieldset>
+            <legend>Student Login</legend>
+
+            <label for="name">
+                Name: <input type="text" id="name" name="firstName" placeholder="Name ?">
+            </label> <br> <br>
+
+            <label for="email">
+                Email: <input type="email" id="email" name="email" placeholder="Email Address?">
+            </label> <br> <br>
+
+            <label for="password">
+                Password: <input type="password" id="password" name="password" placeholder="Password ?" maxlength="8">
+            </label> <br> <br>
+
+            <label for="submit">
+                <input type="submit" name="submit" id="submit" value="Login" required>
+            </label> 
+        </fieldset>
+    </form>
+
+    <hr>
+    <h2>Form Two</h2>
+    <form action="#" target="_blank">
+        <fieldset>
+            <legend>Student Data</legend>
+
+            <label for="fristName">
+                First Name: <input type="text" id="fristName" name="firstName" placeholder="First Name ?">
+            </label>
+            <br> <br>
+
+            <label for="lastName">
+                Last Name: <input type="text" id="lastName" name="lastName" placeholder="Last Name ?">
+            </label>
+            <br> <br>
+
+            <label for="email">
+                Email: <input type="email" id="email" name="email" placeholder="Email Address ?">
+            </label>
+            <br> <br>
+
+            <label for="phone">
+                Phone: <input type="tel" id="phone" name="phone" placeholder="Phone Number ?">
+            </label>
+            <br> <br>
+
+            <label for="dob">
+                Date of Birth: <input type="date" id="dob" name="dob">
+            </label>
+            <br> <br>
+
+            <label for="gender">
+                Gender: <br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </label>
+            <br> <br>
+
+            <label for="address">
+                Address: <textarea id="address" name="address" rows="4" cols="50" placeholder="Address ?"></textarea>
+            </label>
+            <br> <br>
+
+            <label for="country">
+                Country: <select id="country" name="country">
+                    <option value="country">Country</option>
+                    <option value="india">INDIA</option>
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">UK</option>
+                    <option value="australia">Australia</option>
+                </select>
+            </label>
+            <br> <br>
+
+            <label for="submit">
+                <input type="submit" name="submit" id="submit" value="Submit" required>
+            </label>
+            <br> <br>
+
+            <label for="course">
+                Couse Name: 
+                <select name="course" id="course">
+                    <option value="html">Course</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JavaScript</option>
+                    <option value="php">PHP</option>
+                    <option value="python">Python</option>
+                    <option value="java">Java</option>
+                    <option value="csharp">C#</option>
+                    <option value="ruby">Ruby</option>
+                    <option value="swift">Swift</option>
+                    <option value="go">Go</option>
+                    <option value="kotlin">Kotlin</option>
+                    <option value="rust">Rust</option>
+                    <option value="typescript">TypeScript</option>
+                    <option value="sql">SQL</option>
+                    <option value="r">R</option>
+                    <option value="dart">Dart</option>
+                    <option value="scala">Scala</option>
+                    <option value="elixir">Elixir</option>
+                    <option value="haskell">Haskell</option>
+                    <option value="erlang">Erlang</option>
+                </select>
+            </label> <br> <br>
+
+            <label for="reset">
+                <input type="reset" name="reset" id="reset" value="Reset">
+            </label>
+        </fieldset>
+    </form>
+
+</body>
+</html>
